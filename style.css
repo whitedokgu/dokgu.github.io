@@ -1,42 +1,30 @@
 
 
 body{
-    margin: 0;
-     
+     margin: 0;
 }
-
 h1{
-    text-align: center;
-   
+     text-align: center;
 }
-
 a{
-    text-decoration-line: none;
-    color: black;
+     text-decoration-line: none;
+     color: black;
 }
-
 div img{
-    height: 20px;
+     height: 30px;
 }
 
-
+/*---------------------메뉴---------------------*/
 
 #menu {
-    height: 50px;
-    background-color: #fcc;
-    
+     height: 50px;
+     background-color: #fcc;
 }
-
-
-
-.mian1{
-    width: 600px;
-    height: 100%;
-    margin: 0 auto;
-    
+.main1{
+      width: 600px;
+      height: 100%;
+      margin: 0 auto; 
 }
-
-
 .main1>li{
     float: left;
     width: 25%;
@@ -45,78 +33,197 @@ div img{
     position: relative;
     }
 
-.main1>li:hover .main2{
-    left: 0;
-}
-
-
 .main1>li a{
-    display: block;
-    }
-
-
-main1>li a:hover{
-    background-color: #b21016;
-    color: #fff;
-    font-weight: bold;
+      display: block;
 }
-
-
-.main2 {
-    position: absolute;
-    top: 50px;
-    left: -9999px;
-    background: #ccc;
-    width: 120%;
-    padding-left: 0;
-}
-
-
-.main2>li {
-    position: relative;
-    
-}
-
-
-
-.main2>li:hover .main3 {
-    left: 100%;
-    
-}
-
-.main2>li a:hover{
-    background: #696969;
-    color: #fff;
-}
-
-
-.main2>li a, .main3>li a {
-    border-radius: 10px;
-    margin: 10px;
-
-}
-
-
-
-.main3 {
-    position: absolute;
-    top: 0;
-    background: #6BD089;
-    width: 80%;
-    left: -9999px;
-    padding-left: 0;
-    /*left: 100%;*/
-    /*display: none;*/
-}
-
-
-
-.main3>li a:hover {
-    background: #085820;
-    color: #fff;
+.main1>li a:hover{
+      background-color: #b21016;
+      color: #fff;
+      font-weight: bold;
 }
 
 li{
-    list-style: none;
+      list-style: none;
 }
+
+/*--------------------1번메뉴--------------------*/
+/*---------------------sub1-1---------------------*/
+
+.main1>li:hover .cookie{
+      left: 0;
+}
+.cookie {
+      position: absolute;
+      top: 50px;
+      left: -9999px;
+      background: #ccc;
+      width: 100%;
+      padding-left: 0;
+}
+.cookie>li {
+      position: relative;
+    
+}
+.cookie>li:hover .type {
+      left: 100%;
+    
+}
+.cookie>li a:hover{
+      background: #696969;
+      color: #fff;
+}
+.cookie>li a,.type>li a {
+      border-radius: 10px;
+      margin: 10px;
+}
+
+
+.type {
+      position: absolute;
+      top: 0;
+      background: #6BD089;
+      width: 80%;
+      left: -9999px;
+      padding-left: 0;
+     /*left: 100%;*/
+     /*display: none;*/
+}
+.type>li a:hover {
+      background: #085820;
+      color: #fff;
+}
+
+.cookie_type{
+    width: 100%;
+    
+}
+
+/*---------------------sub1-2---------------------*/
+/*서브메뉴가없으므로 생략 */
+
+/*---------------------sub1-3---------------------*/
+.cookie>li:hover .level {
+      left: 100%;
+}
+.cookie>li a, .level>li a {
+      border-radius: 10px;
+      margin: 10px;
+}
+.level {
+      position: absolute;
+      top: 0;
+      background: #6BD089;
+      width: 80%;
+      left: -9999px;
+      padding-left: 0;
+     /*left: 100%;*/
+     /*display: none;*/
+}
+.level>li a:hover {
+      background: #085820;
+      color: #fff;
+}
+.cookie_level{
+    width: 100%;
+}
+/*---------------------sub1-4---------------------*/
+.cookie>li:hover .relation {
+      left: 100%;
+}
+.cookie>li a, .relation>li a {
+      border-radius: 10px;
+      margin: 10px;
+}
+.relation {
+      position: absolute;
+      top: 0;
+      background: #6BD089;
+      width: 80%;
+      left: -9999px;
+      padding-left: 0;
+     /*left: 100%;*/
+     /*display: none;*/
+}
+.relation>li a:hover {
+      background: #085820;
+      color: #fff;
+}
+.cookie_relation{
+    width: 100%;
+ }
+
+/*--------------------2번메뉴--------------------*/
+.main2{
+      width: 600px;
+      height: 100%;
+      margin: 0 auto; 
+}
+.main2>li{
+    float: left;
+    width: 25%;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    }
+
+.main2>li a{
+      display: block;
+}
+.main2>li a:hover{
+      background-color: #b21016;
+      color: #fff;
+      font-weight: bold;
+}
+
+li{
+      list-style: none;
+}
+
+/*---------------------sub2----------------------*/
+
+.main2>li:hover .treasure{
+      left: 0;
+}
+.treasure {
+      position: absolute;
+      top: 50px;
+      left: -9999px;
+      background: #ccc;
+      width: 100%;
+      padding-left: 0;
+}
+.treasure>li {
+      position: relative;
+    
+}
+.treasure>li:hover .common {
+      left: 100%;
+    
+}
+.treasure>li a:hover{
+      background: #696969;
+      color: #fff;
+}
+.treasure>li a,.common>li a {
+      border-radius: 10px;
+      margin: 10px;
+}
+
+
+.common {
+      position: absolute;
+      top: 0;
+      background: #6BD089;
+      width: 80%;
+      left: -9999px;
+      padding-left: 0;
+     /*left: 100%;*/
+     /*display: none;*/
+}
+.common>li a:hover {
+      background: #085820;
+      color: #fff;
+}
+
+
 
