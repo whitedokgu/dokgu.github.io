@@ -1,1 +1,1 @@
-# whitedokgu.github.io
+# whitedokgu.github.io/main.html
