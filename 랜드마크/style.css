@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+}
+.link_cafe img{
+    width: 20px;
+}
+.outline{
+    width: 100%;
+    height: 100%;
+}
+.Landmark img{
+    width: 50%;
+}
+table{
+    text-align: center;
+}
+
+.Landmark-table{
+    width: 100%;
+    background-color:white;
+    border:2px solid #DA914B;    
+    border-collapse: collapse;
+}
+.t_bottom{
+    
+    background-color:#EDDB83; 
+    text-align:center;"
+}
