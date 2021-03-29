@@ -19,14 +19,16 @@ body {
 	width: 50%;
 }
 
-table {
+.Landmark-table {
+	border-top: 1px solid;
 	text-align: center;
+	border-collapse: collapse;
 }
 
-.Landmark-table {
-	width: 100%;
-	border: 1px solid black;
-	border-collapse: collapse;
+th,
+td {
+	border-bottom: 1px solid;
+	padding: 3.8px;
 }
 
 .t-h1 {
