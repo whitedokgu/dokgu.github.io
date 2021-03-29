@@ -1,28 +1,42 @@
-body{
-    margin: 10px;
-}
-.link_cafe img{
-    width: 20px;
-}
-.outline{
-    width: 100%;
-    height: 100%;
-}
-.Landmark img{
-    width: 50%;
-}
-table{
-    text-align: center;
+body {
+	margin: 10px;
 }
 
-.Landmark-table{
-    width: 100%;
-    background-color:white;
-    border:2px solid #DA914B;    
-    border-collapse: collapse;
+.link_cafe img {
+	width: 20px;
 }
-.t_bottom{
-    
-    background-color:#EDDB83; 
-    text-align:center;"
+
+.outline {
+	width: 100%;
+	height: 100%;
+}
+
+.Landmark {
+	margin: 15px;
+}
+
+.Landmark img {
+	width: 50%;
+}
+
+table {
+	text-align: center;
+}
+
+.Landmark-table {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.t-h1 {
+	width: 20%;
+}
+
+.t-h2 {
+	width: 24%;
+}
+
+.t-h3 {
+	width: 5.6%;
 }
