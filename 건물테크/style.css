@@ -43,3 +43,12 @@ th,td{
 	width: 20%;
 	float: left;
 }
+
+button {
+	font-size: 15px;
+
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
