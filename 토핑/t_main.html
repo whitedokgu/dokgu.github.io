@@ -1,54 +1,287 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 	<meta charset="utf-8" content="width=device-width, inital-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../메뉴바/menu_style.css">
-	<link rel="stylesheet" href="t_style.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="../메뉴바/menu_javascript.js"></script>
-	<title>토핑</title>
+		integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../메뉴바/menu_style.css">
+	<link rel="stylesheet" href="r_style.css">
+	<script src="../메뉴바/menu_javascript.js"></script>
+
+	<title>랜드마크</title>
 </head>
 
 <body>
 	<div id="menubar">
 		<div class="navi">
-		<ul>
-			<li id="home">
-				<a href="https://whitedokgu.github.io/">
-					<span class="title">home</span>
-				</a>
-			</li>
-			<li id="menu1">
-				<a href="../건물테크/b_main.html">
-					<span class="title" >건물테크</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<span class="title" style="color: lightgreen;">토핑</span>
-				</a>
-			</li>
-			<li>
-				<a href="../랜드마크/r_main.html">
-					<span class="title">랜드마크</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<span class="title">menu4</span>
-				</a>
-			</li>
-		</ul>
+			<ul>
+				<li id="home">
+					<a href="https://whitedokgu.github.io/">
+						<span class="title">home</span>
+					</a>
+				</li>
+				<li id="menu1">
+					<a href="../건물테크/b_main.html">
+						<span class="title">건물테크</span>
+					</a>
+				</li>
+				<li>
+					<a href="../토핑/t_main.html">
+						<span class="title">토핑</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="title" style="color: lightgreen;">랜드마크</span>
+					</a>
+				</li>
+				<li>
+					<a href="../토벌전/g_main.html">
+						<span class="title">토벌전</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="toggle" onclick="toggleMenu()"></div>
 	</div>
-	<div class="toggle" onclick="toggleMenu()"></div> 
-	</div>  
 
-	<div class="t_body">토 핑</div>
-	<div class="toping-list">
-		<ol><a href="topig-table.html">토핑 드랍 테이블</a></ol>
-		<ol><a href="topig-option.html">토핑 추가옵션</a></ol>
+
+
+	<div id="r_body"></div>
+	<div class="link_cafe">
+		<a href="https://cafe.naver.com/crkingdom/267871"><img src="이미지/링크.png">공식 정리글</a>
+	</div>
+
+	<div class="Landmark">
+
+		<table class="Landmark-table">
+			<thead>
+				<tr>
+					<th class="t-h1">랜드마크</th>
+					<th class="t-h2">버프효과</th>
+					<th class="t-h3">1레벨</th>
+					<th class="t-h3">2레벨</th>
+					<th class="t-h3">3레벨</th>
+					<th class="t-h3">4레벨</th>
+					<th class="t-h3">5레벨</th>
+					<th class="t-h3">6레벨</th>
+					<th class="t-h3">7레벨</th>
+					<th class="t-h3">8레벨</th>
+					<th class="t-h3">9레벨</th>
+					<th class="t-h3">10레벨</th>
+				</tr>
+			</thead>
+			<tr>
+				<td><img src=이미지/시계탑.png><br>똑딱쿠키 시계탑</td>
+				<td>생산품의 생산 시간 감소</td>
+				<td>1%</td>
+				<td>2%</td>
+				<td>3%</td>
+				<td>4%</td>
+				<td>5%</td>
+				<td>6%</td>
+				<td>7%</td>
+				<td>8%</td>
+				<td>9%</td>
+				<td>10%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/귀신의집.png><br>으스스한 귀신의 집</td>
+				<td>치명타 확률 증가</td>
+				<td>3%</td>
+				<td>4%</td>
+				<td>4.5%</td>
+				<td>5%</td>
+				<td>5.5%</td>
+				<td>6%</td>
+				<td>6.6%</td>
+				<td>7%</td>
+				<td>7.5%</td>
+				<td>8%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/마그마마운틴.png><br>이글이글 마그마 마운틴</td>
+				<td>기차 무역 완료 시간 감소</td>
+				<td>1%</td>
+				<td>2%</td>
+				<td>3%</td>
+				<td>4%</td>
+				<td>5%</td>
+				<td>6%</td>
+				<td>7%</td>
+				<td>8%</td>
+				<td>9%</td>
+				<td>10%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/스노우글로브.png><br>영원한 겨울의 스노우 글로브</td>
+				<td>방어력 증가</td>
+				<td>5%</td>
+				<td>6%</td>
+				<td>6.5%</td>
+				<td>7%</td>
+				<td>7.5%</td>
+				<td>8%</td>
+				<td>8.5%</td>
+				<td>9%</td>
+				<td>9.5%</td>
+				<td>10%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/젤리라이언.png><br>꿈꾸는 젤리라이언 조각상</td>
+				<td>공격력 증가</td>
+				<td>5%</td>
+				<td>6%</td>
+				<td>6.5%</td>
+				<td>7%</td>
+				<td>7.5%</td>
+				<td>8%</td>
+				<td>8.5%</td>
+				<td>9%</td>
+				<td>9.5%</td>
+				<td>10%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/유리정원.png><br>이슬 담긴 유리정원</td>
+				<td>체력 증가</td>
+				<td>5%</td>
+				<td>6%</td>
+				<td>6.5%</td>
+				<td>7%</td>
+				<td>7.5%</td>
+				<td>8%</td>
+				<td>8.5%</td>
+				<td>9%</td>
+				<td>9.5%</td>
+				<td>10%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/디저트타워.png><br>그랜드 디저트 타워</td>
+				<td>스태미너 젤리 회복 시간 감소</td>
+				<td>1%</td>
+				<td>2%</td>
+				<td>3%</td>
+				<td>4%</td>
+				<td>5%</td>
+				<td>6%</td>
+				<td>7%</td>
+				<td>8%</td>
+				<td>9%</td>
+				<td>10%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/대관람차.png><br>방울방울 대관람차</td>
+				<td>랜덤 영혼석 영혼석 한개 생산</td>
+				<td>24시간</td>
+				<td>23시간</td>
+				<td>22시간</td>
+				<td>21시간</td>
+				<td>20시간</td>
+				<td>19시간</td>
+				<td>18시간</td>
+				<td>17시간</td>
+				<td>16시간</td>
+				<td>15시간</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/뽑기머신.png><br>데굴데굴 뽑기 머신</td>
+				<td>랜덤 영혼석 영혼석 한개 생산</td>
+				<td>24시간</td>
+				<td>23시간</td>
+				<td>22시간</td>
+				<td>21시간</td>
+				<td>20시간</td>
+				<td>19시간</td>
+				<td>18시간</td>
+				<td>17시간</td>
+				<td>16시간</td>
+				<td>15시간</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/마왕성.png><br>혼돈이 휘몰아치는 마왕성</td>
+				<td>피해감소</td>
+				<td>5%</td>
+				<td>5.5%</td>
+				<td>6%</td>
+				<td>7%</td>
+				<td>8%</td>
+				<td>9%</td>
+				<td>10%</td>
+				<td>11%</td>
+				<td>12%</td>
+				<td>15%</td>
+			</tr>
+
+
+
+			<tr>
+				<td><img src=이미지/천문대.png><br>우주 별사탕 천문대</td>
+				<td>전투 종료시 코인 획득량 증가</td>
+				<td>2%</td>
+				<td>4%</td>
+				<td>6%</td>
+				<td>8%</td>
+				<td>10%</td>
+				<td>12%</td>
+				<td>14%</td>
+				<td>16%</td>
+				<td>18%</td>
+				<td>20%</td>
+			</tr>
+
+
+			<tr>
+				<td><img src=이미지/비공정.png><br>초코소라빵 비공정</td>
+				<td>열기구 탐사시간 감소</td>
+				<td>1%</td>
+				<td>2%</td>
+				<td>3%</td>
+				<td>4%</td>
+				<td>5%</td>
+				<td>6%</td>
+				<td>7%</td>
+				<td>8%</td>
+				<td>9%</td>
+				<td>10%</td>
+			</tr>
+
+			<tr>
+				<td><img src=이미지/파르페타리움.png><br>페르페타리움</td>
+				<td>연합의 불꽃lv.2 한개 생산</td>
+				<td>18시간</td>
+				<td>17시간</td>
+				<td>16시간</td>
+				<td>15시간</td>
+				<td>14시간</td>
+				<td>13시간</td>
+				<td>12시간</td>
+				<td>11시간</td>
+				<td>10시간</td>
+				<td>9시간</td>
+			</tr>
+
+
+			<tbody>
+
+			</tbody>
+		</table>
+
+
+
+
+
+
 	</div>
 </body>
+
+</html>
