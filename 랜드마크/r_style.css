@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+}
+.link_cafe img {
+	width: 20px;
+}
+
+.outline {
+	width: 100%;
+	height: 100%;
+}
+
+.Landmark {
+	margin: 15px;
+}
+
+.Landmark img {
+	width: 50%;
+}
+
+.Landmark-table {
+	border-top: 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border-bottom: 1px solid;
+	padding: 3.8px;
+}
+
+.t-h1 {
+	width: 20%;
+}
+
+.t-h2 {
+	width: 24%;
+}
+
+.t-h3 {
+	width: 5.6%;
+}
+
+button {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
