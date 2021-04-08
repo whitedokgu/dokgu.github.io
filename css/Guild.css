@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+      
+}
+.g_title{
+    font-size:50px;
+    font-weight: bold;
+    text-align: center;
+   
+    margin-bottom: 20px;
+}
+.g_link{
+    margin: 15px;
+    }
+.g_link img{
+       width:20px;
+}
+.g_link a{
+    text-decoration: none;
+    color: darkgreen;
+    }
+ol{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ol li{
+    list-style: none;
+}
+.Nocharge{
+    
+    font-size:40px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.sub_title{
+    font-size:30px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.treasure img{
+    width: 10%;
+}

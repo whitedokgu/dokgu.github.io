@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.t-table {
+	margin: 30px;
+}
+
+table {
+	width: 100%;
+	border-top: 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th {
+	font-size: 15px;
+}
+
+th,
+td {
+	border-bottom: 1px solid;
+	padding: 10px;
+}
+
+thead img {
+	width: 40%;
+}
+
+.t-head-1 {
+	width: 11%;
+}
+
+.t-head-2 {
+	width: 10%;
+}
+
+tbody img {
+	width: 80%;
+}
