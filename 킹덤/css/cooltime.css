@@ -1,0 +1,53 @@
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#Cooldown_body{
+	margin : 15px;
+}
+p{
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.formula{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	
+}
+table{
+	border: 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+th{
+	font-size: 20px;
+}
+th,td{
+	border:1px solid;
+	padding: 10px;	
+}
+td{
+	height: 7.69%;
+}
+td img{
+	width: 100%;
+	
+}
+.skill_Cooldown img{
+    width: 100%;
+}
+.reference{
+	color: red;
+}
+a{
+	text-decoration: none;
+	color: rgb(5, 48, 5);
+}

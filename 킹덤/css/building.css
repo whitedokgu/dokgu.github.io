@@ -1,0 +1,32 @@
+*{
+    margin: 15px;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 5px solid rgba(218, 75, 32, 0.76);
+    text-align: center;
+    width: 800px;
+}
+th{
+    font-size: 30px;
+}
+td p{
+    
+    font-size: 15px;
+}
+.content{
+    float: right;
+    width: 450px;
+}
+h1{
+    text-align: center;
+}
+img.castle{
+    width: 30%;
+    float: left;
+}
+.Building{
+    width: 40%;
+}
