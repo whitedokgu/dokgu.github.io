@@ -1,3 +1,3 @@
 킹덤 공략 
 
-https://whitedokgu.github.io/html/home.html
+whitedokgu.github.io/킹덤/html/menu.html
