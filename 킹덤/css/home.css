@@ -3,12 +3,14 @@
 }
 
 img{    
-    width: 60%;
-    margin-top: 40px;
+    width: 80%;
+    margin: 40px auto;
 }
+
+
 @media (max-width: 920px){
     img{    
-        width: 80%;
+        width: 100%;
         margin-top: 40px;
     }
 }
