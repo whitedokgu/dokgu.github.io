@@ -61,3 +61,26 @@ table a{
 .th-3{
     width: 50%;
 }
+
+@media (max-width: 920px){
+	*{
+		margin: 0;
+	}
+    h1{
+        font-size: 40px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    h2{
+        margin-bottom: 30px;
+    }
+    table {
+       font-size: 14px;
+    }
+    th,
+    td {
+        padding: 10px;
+    }
+}
