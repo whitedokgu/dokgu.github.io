@@ -51,3 +51,55 @@ a{
 	text-decoration: none;
 	color: rgb(5, 48, 5);
 }
+
+@media (max-width: 920px){
+	*{
+		margin: 0;
+	}
+	p{
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+	p img{
+		width: 100%;
+	}
+	.formula{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-weight: bold;
+		
+	}
+	table{
+		border: 1px solid;
+		text-align: center;
+		border-collapse: collapse;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+	th{
+		font-size: 14px;
+	}
+	th,td{
+		border:1px solid;
+	}
+	td{
+		padding: 0;
+		height: 7.69%;
+		font-size: 12.5px;
+	}
+	td img{
+		width: 100%;
+		
+	}
+	.skill_Cooldown img{
+		width: 100%;
+	}
+	.reference{
+		color: red;
+	}
+	a{
+		text-decoration: none;
+		color: rgb(5, 48, 5);
+	}
+}
