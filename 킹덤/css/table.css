@@ -16,7 +16,7 @@ table {
 }
 
 th {
-	font-size: 15px;
+	font-size: 14px;
 }
 
 th,
@@ -39,4 +39,32 @@ thead img {
 
 tbody img {
 	width: 80%;
+}
+@media (max-width: 920px){
+	*{
+		margin: 0px;
+	}
+	.t-table {
+		margin: 0px;
+	}
+	h1{
+		font-size: 35px;
+	}
+	th {
+		font-size: 0;
+	}
+	th,
+	td {
+	padding: 0px;
+	}
+	td{
+		font-size: 14px;
+	}
+	thead img {
+		width: 40%;
+	}
+	tbody img {
+		width: 50%;
+	}
+	 
 }
