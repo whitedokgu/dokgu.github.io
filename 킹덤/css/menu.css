@@ -102,7 +102,7 @@ section{
 
 .btn.solid, .btn.transparent:hover{
     background-color: #fff;
-    color: #69bde7;
+    color: #a5d2e9;
 }
 
 .btn.transparent, .btn.solid:hover{
@@ -315,7 +315,7 @@ section{
         top: 3rem;
         right: 0;
         width: 60%;
-        background-color: rgb(48, 48, 48);
+        background-color: rgba(48, 48, 48, 0.950);
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
