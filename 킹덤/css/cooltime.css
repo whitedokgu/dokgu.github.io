@@ -1,100 +1,105 @@
-*{
-    margin: 15px;
-    text-align: center;
+h1{
+	text-align: center;
+	margin-bottom: 40px;
 }
-.g_title{
-    font-size:50px;
-    font-weight: bold;
-    text-align: center;
-   
-    margin-bottom: 20px;
+h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-.g_link{
-    margin: 15px;
-    }
-.g_link img{
-       width:20px;
-}
-.g_link a{
-    text-decoration: none;
-    color: darkgreen;
-    }
-ol{
-    padding: 0;
-}
-ol li{
-    list-style: none;
-}
-.Nocharge{
-    
-    font-size:40px;
-    font-weight: bold;
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-.sub_title{
-    font-size:30px;
-    font-weight: bold;
-    margin-left: 15px;
-    margin-bottom: 15px;
+#Cooldown_body{
+	margin : 15px;
 }
 p{
-    font-size: 18px;
-    margin-bottom: 20px;
+	margin-bottom: 15px;
+	font-size: 15px;
 }
-.treasure img{
-    width: 10%;
+.formula{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	
 }
-@media (max-width: 920px){
-    *{
-        margin: 0px;
-        text-align: center;
-    }
-    .g_title{
-        font-size:40px;
-        font-weight: bold;
-        text-align: center;       
-        margin-bottom: 20px;
-    }
-    .g_link{
-        margin: 15px;
-        font-size: 14px;
-        }
+table{
+	border: 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
-    .g_link img{
-           width:20px;
-    }
-    .g_link a{
-        text-decoration: none;
-        color: darkgreen;
-        }
-    ol{
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    ol li{
-        list-style: none;
-    }
-    .Nocharge{
-        font-size:35px;
-        font-weight: bold;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-    .sub_title{
-        font-size:25px;
-        font-weight: bold;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-    p{
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-    img{
-        width: 100%;
-    }
-    .treasure img{
-        width: 10%;
-    }
+th{
+	font-size: 20px;
+}
+th,td{
+	border:1px solid;
+	padding: 10px;	
+}
+td{
+	height: 7.69%;
+}
+td img{
+	width: 100%;
+	
+}
+.skill_Cooldown img{
+    width: 100%;
+}
+.reference{
+	color: red;
+}
+a{
+	text-decoration: none;
+	color: rgb(5, 48, 5);
+}
+
+@media (max-width: 920px){
+	*{
+		margin: 0;
+	}
+	p{
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+	p img{
+		width: 100%;
+	}
+	.formula{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-weight: bold;
+		
+	}
+	table{
+		border: 1px solid;
+		text-align: center;
+		border-collapse: collapse;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+	th{
+		font-size: 14px;
+	}
+	th,td{
+		border:1px solid;
+	}
+	td{
+		padding: 0;
+		height: 7.69%;
+		font-size: 12.5px;
+	}
+	td img{
+		width: 100%;
+		
+	}
+	.skill_Cooldown img{
+		width: 100%;
+	}
+	.reference{
+		color: red;
+	}
+	a{
+		text-decoration: none;
+		color: rgb(5, 48, 5);
+	}
 }
