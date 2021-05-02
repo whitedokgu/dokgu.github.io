@@ -15,7 +15,7 @@ ol{
 .topping li{
     list-style: none;
 }
-.reason, .tier, .topping, .Reference, .comparison, .kind
+.reason, .tier, .topping, .Reference, .comparison, .kind{
     width: 800px;
 }
 .reason img{
