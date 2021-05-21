@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+    </script>
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <title>Responsive sidebar submenus</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">Bedimcode</a>
+
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input">
+                <i class='bx bx-search header__icon'></i>
+            </div>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--========== NAV ==========-->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="../html/nav.html" class="nav__link nav__logo">
+                    <i class='bx bxs-disc nav__icon'></i>
+                    <span class="nav__logo-name">Bedimcode</span>
+                </a>
+
+                <div class="nav__list">
+
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Menu</h3>
+                        <div class="nav-link">
+                            <a data-url="../html/index.html" class="nav__link active">
+                                <i class='bx bx-home nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </div>
+
+                        <div class="nav-link">
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-bell nav__icon'></i>
+                                    <span class="nav__name">Notifications</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a data-url="/html/2.html" class="nav__dropdown-item">Blocked</a>
+                                        <a data-url="/html/1.html" class="nav__dropdown-item">Silenced</a>
+                                        <a data-url="#" class="nav__dropdown-item">Publish</a>
+                                        <a data-url="#" class="nav__dropdown-item">Program</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-link">
+                            <a data-url="#" class="nav__link">
+                                <i class='bx bx-compass nav__icon'></i>
+                                <span class="nav__name">Explore</span>
+                            </a>
+                        </div>
+                        <div class="nav-link">
+                            <a data-url="#" class="nav__link">
+                                <i class='bx bx-bookmark nav__icon'></i>
+                                <span class="nav__name">Saved</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <!--========== CONTENTS ==========-->
+    <main>
+        <section>
+            <div class="overlay">
+                <iframe id='iframe' src="../html/index.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
+            </div>
+        </section>
+    </main>
+       
+    <!--========== MAIN JS ==========-->
+    <script src="../js/nav.js"></script>
+    
+</body>
+
+</html>
