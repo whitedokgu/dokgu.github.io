@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
-    </script>
+        </script>
     <!--========== BOX ICONS ==========-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
@@ -20,7 +20,7 @@
     <!--========== HEADER ==========-->
     <header class="header">
         <div class="header__container">
-            <a href="#" class="header__logo">Bedimcode</a>
+            <a href="#" class="header__logo"><img src="../nav-img/flat-logo-ko.webp"></a>
 
             <div class="header__search">
                 <input type="search" placeholder="Search" class="header__input">
@@ -39,7 +39,7 @@
             <div>
                 <a href="../html/nav.html" class="nav__link nav__logo">
                     <i class='bx bxs-disc nav__icon'></i>
-                    <span class="nav__logo-name">Bedimcode</span>
+                    <span class="nav__logo-name"><img src="../nav-img/flat-logo-ko.webp"></span>
                 </a>
 
                 <div class="nav__list">
@@ -56,17 +56,16 @@
                         <div class="nav-link">
                             <div class="nav__dropdown">
                                 <a href="#" class="nav__link">
-                                    <i class='bx bx-bell nav__icon'></i>
-                                    <span class="nav__name">Notifications</span>
+                                    <i class='bx bx-cookie nav__icon'></i>
+                                    <span class="nav__name">쿠키</span>
                                     <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                                 </a>
 
                                 <div class="nav__dropdown-collapse">
                                     <div class="nav__dropdown-content">
-                                        <a data-url="/html/2.html" class="nav__dropdown-item">Blocked</a>
-                                        <a data-url="/html/1.html" class="nav__dropdown-item">Silenced</a>
-                                        <a data-url="#" class="nav__dropdown-item">Publish</a>
-                                        <a data-url="#" class="nav__dropdown-item">Program</a>
+                                        <a data-url="Rating.html" class="nav__dropdown-item">등급</a>
+                                        <a data-url="#" class="nav__dropdown-item">스킬 / 레벨</a>
+                                        <a data-url="#" class="nav__dropdown-item">인연</a>
                                     </div>
                                 </div>
                             </div>
@@ -74,15 +73,61 @@
 
                         <div class="nav-link">
                             <a data-url="#" class="nav__link">
-                                <i class='bx bx-compass nav__icon'></i>
-                                <span class="nav__name">Explore</span>
+                                <i class='bx bx-polygon nav__icon'></i>
+                                <span class="nav__name">보물</span>
                             </a>
                         </div>
                         <div class="nav-link">
-                            <a data-url="#" class="nav__link">
-                                <i class='bx bx-bookmark nav__icon'></i>
-                                <span class="nav__name">Saved</span>
-                            </a>
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-building-house nav__icon'></i>
+                                    <span class="nav__name">건물</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a data-url="#" class="nav__dropdown-item">기능성 건물</a>
+                                        <a data-url="#" class="nav__dropdown-item">생산 건물</a>
+                                        <a data-url="#" class="nav__dropdown-item">생산품 제작 건물</a>
+                                        <a data-url="#" class="nav__dropdown-item">기타 건물</a>
+                                        <a data-url="#" class="nav__dropdown-item">랜드마크</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-link">
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-extension nav__icon'></i>
+                                    <span class="nav__name">토핑</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a data-url="#" class="nav__dropdown-item">쿨타임</a>
+                                        <a data-url="#" class="nav__dropdown-item">추가 옵션</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-link">
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-shield nav__icon'></i>
+                                    <span class="nav__name">길드</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a data-url="#" class="nav__dropdown-item">토벌전</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,14 +140,14 @@
     <main>
         <section>
             <div class="overlay">
-                <iframe id='iframe' src="../html/index.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
+                <iframe id='iframe' src="index.html"  frameborder="0" ></iframe>
             </div>
         </section>
     </main>
-       
+
     <!--========== MAIN JS ==========-->
     <script src="../js/nav.js"></script>
-    
-</body>
+       
+    </body>
 
 </html>

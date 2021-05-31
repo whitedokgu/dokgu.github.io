@@ -231,6 +231,44 @@ picture>img{
         height: 70px;
     }
 }
+/* -----CAFELOGO----- */
+.Cafelogo-warrper{
+    top: 50px;
+}
+@media (min-width: 25em){
+    .Cafelogo-warrper {
+        top: 70px;
+    }
+}
+@media (min-width: 40em){
+    .Cafelogo-warrper {
+        top: 5rem;
+    }
+}
+.css-11gw3na{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    pointer-events: none;
+    z-index: 1;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.Cafelogo-box{
+    float: right;
+    pointer-events: all;
+}
+.Cafelogo{
+    width: 43px;
+    height: 60px;
+}
+@media (min-width: 640px){
+    .Cafelogo{
+        width: 83px;
+        height: 114px;
+    }
+}
+
 /* -----FOOTER----- */
 .footer{
     background: rgb(25, 28, 36);
