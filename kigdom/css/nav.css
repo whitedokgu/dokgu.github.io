@@ -52,7 +52,7 @@ body {
   overflow: hidden;
   height: 900px; 
 }
-@media screen and (min-width: 320px){
+@media screen and (max-width: 500px){
   body{
     padding: 0;
     height: 700px;
