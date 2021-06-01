@@ -1,7 +1,9 @@
 * {
     font-family: inherit;
 }
-
+html{
+    margin-bottom: 200px;
+}
 a{
     text-decoration: none;
 }
