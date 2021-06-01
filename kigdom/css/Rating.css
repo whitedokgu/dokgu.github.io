@@ -33,11 +33,21 @@ body{
         height: 684px;
     }
 }
-
+.img-box{
+    padding-left: 8px ;
+}
 .img-box img{
     width: 20%;
 }
-
+@media (max-width: 640px){
+    .img-box {
+        width: 100%;
+        padding-left: 8px ;
+    }
+    .img-box img{
+        width: 23%;
+    }
+}
 .list-box{
     margin-left: 20px;
     float: left;
